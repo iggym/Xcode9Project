@@ -47,6 +47,7 @@
 		DC0A05C11EE8B208005DCC0A /* Xcode9ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Xcode9ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC0A05C51EE8B208005DCC0A /* Xcode9ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode9ProjectUITests.swift; sourceTree = "<group>"; };
 		DC0A05C71EE8B208005DCC0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC0A05D31EE8E826005DCC0A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +78,7 @@
 		DC0A05991EE8B208005DCC0A = {
 			isa = PBXGroup;
 			children = (
+				DC0A05D31EE8E826005DCC0A /* README.md */,
 				DC0A05A41EE8B208005DCC0A /* Xcode9Project */,
 				DC0A05B91EE8B208005DCC0A /* Xcode9ProjectTests */,
 				DC0A05C41EE8B208005DCC0A /* Xcode9ProjectUITests */,
@@ -419,6 +421,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8X445N7629;
 				INFOPLIST_FILE = Xcode9Project/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.iggym.Xcode9Project;
@@ -432,6 +435,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8X445N7629;
 				INFOPLIST_FILE = Xcode9Project/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.iggym.Xcode9Project;
